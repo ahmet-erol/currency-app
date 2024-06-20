@@ -1,0 +1,60 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    backdrop-filter: blur(8px);
+}
+
+.first-input {
+    width: 125px;
+    height: 25px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.second-input {
+    width: 125px;
+    height: 25px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.first-currency-select {
+    margin-right: 5px;
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.second-currency-select {
+    margin-left: 5px;
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.exchange-button {
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: -10px;
+}
+
+.app-jsx-div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.title {
+    margin-top: -70px;
+    margin-bottom: 20px;
+    font-family: "Arial";
+}
