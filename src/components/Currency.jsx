@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/currency.css'
 import { BsCurrencyExchange } from "react-icons/bs";
 
+
 function Currency() {
     return (
         <div className='main-div'>
@@ -26,6 +27,13 @@ function Currency() {
                 </select>
 
                 <input type="number" className='second-input' />
+
+            </div>
+
+            <div>
+                <button className='convert-button'>
+                    Convert
+                </button>
             </div>
 
         </div>
